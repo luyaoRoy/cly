@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    width: 1200px; 
+    height: 600px; 
+    position: relative;
+    float: right;
+}
+.btn-traffic{
+    float: left;
+}
+.amap-icon img,
+.amap-marker-content img{
+    width: 25px;
+    height: 34px;
+}
+
+.marker {
+    position: absolute;
+    top: -20px;
+    right: -118px;
+    color: #fff;
+    padding: 4px 10px;
+    box-shadow: 1px 1px 1px rgba(10, 10, 10, .2);
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: "";
+    background-color: #25A5F7;
+    border-radius: 3px;
+}
+
+.dot-marker{
+    width: 32rem;
+    z-index: 170;
+}
+
+.dot-marker .btn-dot{
+    margin-right: .8rem;
+}
+
+.dot-marker .btn-dot:last-child{
+    margin-right: 0;
+}
+
+.content-window-card {
+    position: relative;
+    box-shadow: none;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    padding: 0;
+}
+
+.content-window-card p {
+    height: 2rem;
+}
+
+.custom-info {
+    border: solid 1px silver;
+}
+
+div.info-top {
+    position: relative;
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-bottom: 1px solid #CCC;
+    border-radius: 5px 5px 0 0;
+}
+
+div.info-top div {
+    display: inline-block;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 31px;
+    padding: 0 10px;
+}
+
+div.info-top img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition-duration: 0.25s;
+}
+
+div.info-top img:hover {
+    box-shadow: 0px 0px 5px #000;
+}
+
+div.info-middle {
+    font-size: 12px;
+    padding: 10px 6px;
+    line-height: 20px;
+}
+
+div.info-bottom {
+    height: 0px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+
+div.info-bottom img {
+    position: relative;
+    z-index: 104;
+}
+
+span {
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+.info-middle img {
+    float: left;
+    margin-right: 6px;
+}
+
+#map-styles .map {
+    height: 2rem;
+  }
+
+#map-styles .map span{
+    display: inline-block;
+    width: 4rem;
+  }
+
+#map-styles .map .style {
+    color: #0288d1;
+    margin-left: 1rem;
+    margin-right: 0rem;
+    width: 6rem;
+  }
